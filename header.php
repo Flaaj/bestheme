@@ -23,8 +23,14 @@
                     <div class="row">
                         <div class="brand col-3">Logo</div>
                         <div class="second-column col-9">
-                                <div class="acount">Account</div>
-                                <div class="main-menu">Menu</div>
+                            <div class="acount">Account</div>
+                            <nav class="main-menu">
+                                <?php wp_nav_menu(
+                                    array(
+                                        'theme_location' => 'bestheme_main_menu'
+                                    )
+                                ) ?>
+                            </nav>
                         </div>
                     </div>
                 </div>

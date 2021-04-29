@@ -1,19 +1,57 @@
 {
-  "name": "bestheme",
+  "name": "Woocommerce_tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "es6-shim": "^0.35.5",
+    "imports-loader": "^2.0.0",
+    "jquery-mousewheel": "^3.1.13",
+    "webpack-merge-and-include-globally": "^2.1.16",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.2.0",
+    "eslint": "^6.4.0",
+    "file-loader": "^4.2.0",
+    "mini-css-extract-plugin": "^0.8.2",
+    "node-sass": "^4.12.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^4.2.2"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run watch",
+    "build": "webpack --config ./config/webpack.prod.js",
+    "watch": "webpack --config ./config/webpack.dev.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Flaaj/bestheme.git"
-  },
+  "browserslist": [
+    "Explorer >= 11",
+    "last 2 versions"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Flaaj/bestheme/issues"
+  "repository": {
+    "type": "git",
+    "url": ""
   },
-  "homepage": "https://github.com/Flaaj/bestheme#readme"
+  "keywords": [],
+  "bugs": {
+    "url": ""
+  },
+  "homepage": ""
 }
