@@ -29,3 +29,31 @@
   .footer-menu ul li.curent-menu-item a {
     color: #ff9292; }
 
+.woocommerce .col2-set .col-1,
+.woocommerce .col2-set .col-2 {
+  max-width: none; }
+
+.woocommerce .form-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  font-family: 'Rajdhani', sans-serif; }
+

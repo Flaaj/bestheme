@@ -1,52 +1,21 @@
-.main-menu {
-    padding: 0;
-    ul {
-        padding: 0;
-        margin: 0;
-        font-size: 18px;
-        font-weight: 500;
+@import "/templates/templates";
+@import "/woocommerce/woocommerce";
 
-        li {
-            display: inline;
-            margin: 0 5px 0 0;
 
-            &:last-child {
-                margin: 0;
-            }
-        }
-    }
+* {
+    box-sizing: border-box;
 }
 
-.footer-menu,
-.footer-widgets {
-    ul {
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        font-size: 16px;
-    }
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+    max-width: 100%;
+    height: auto;
 }
 
-.footer-menu {
-    ul {
-        li {
-            display: inline;
-            margin: 0 10px 0 0;
 
-            &:last-child {
-                margin: 0;
-            }
-
-            a {
-                color: #939393;
-                text-decoration: none;
-            }
-
-            &.curent-menu-item {
-                a {
-                    color: #ff9292;
-                }
-            }
-        }
-    }
+body {
+    font-family: 'Rajdhani', sans-serif;
 }

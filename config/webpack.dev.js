@@ -11,7 +11,7 @@ module.exports = webpackMerge(baseConfig, {
   plugins: [
     new BrowserSyncPlugin({
       proxy: "http://localhost/wootutorial/",
-      files: ["./*.php", "./views/**/*.twig", "./assets/**/*.*"],
+      files: ["./**/*.php", "./views/**/*.twig", "./assets/**/*.*"],
       // host: "192.168.1.84",
       // https: true,
     }),
