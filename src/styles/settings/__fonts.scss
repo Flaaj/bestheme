@@ -1,0 +1,8 @@
+$fonts: (
+    primary: #{'Rajdhani', sans-serif},
+    special: 'Seaweed Script',
+);
+
+@function font($name) {
+    @return map-get($fonts, $name);
+}

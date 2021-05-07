@@ -1,0 +1,7 @@
+button[type="submit"] {
+    &.woocommerce-form-register__submit,
+    &.woocommerce-form-login__submit {
+        width: 100px;
+        height: 40px;
+    }
+}

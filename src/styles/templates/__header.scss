@@ -15,4 +15,47 @@
             }
         }
     }
+
+}
+
+.custom-logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    img.custom-logo {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+.cart {
+    &-link {
+        display: inline-block;
+        height: 23px;
+        position: relative;
+
+        .cart-icon {
+            height: 25px;
+            width: 25px;
+            background: url("icons/cart.svg") center no-repeat;
+            display: inline-block;
+        }
+    }
+
+    .items {
+        position: absolute;
+        top: -9px;
+        left: 15px;
+        width: 18px;
+        height: 18px;
+        border-radius: 50%;
+        background-color: rgb(120, 22, 233);
+        border: 2px solid white;
+        color: white;
+        font-size: 10px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

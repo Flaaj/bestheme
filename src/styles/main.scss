@@ -1,6 +1,7 @@
-@import "/templates/templates";
+@import "/settings/settings";
 @import "/woocommerce/woocommerce";
-
+@import "/elements/elements";
+@import "/templates/templates";
 
 * {
     box-sizing: border-box;
@@ -15,7 +16,6 @@
     height: auto;
 }
 
-
 body {
-    font-family: 'Rajdhani', sans-serif;
+    font-family: font(primary);
 }
